@@ -11,12 +11,11 @@ function App() {
     <>
       <Header />
       <main className='container' style={{ 
-        backgroundImage: `url(${backgroundImage})`, 
-        backgroundColor: 'rgba(255, 255, 255, 0.8)',
-        backgroundSize: 'cover', 
-        backgroundPosition: 'center', 
-        height: '90vh' 
-      }}>
+    backgroundImage: `linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url(${backgroundImage})`, 
+    backgroundSize: 'cover', 
+    backgroundPosition: 'center', 
+    height: '90vh' 
+}}>
 <Outlet />
 </main>
 <Footer/></>
