@@ -30,18 +30,18 @@ export default function About() {
     target.classList.add('visible');
   });
   return (
-    <div id="about" className = "hidden">
-     
-      <h1>Let's Innovate Together!</h1>
-      <p>
-        I am a software engineer with a passion for web development. I have
-        experience with JavaScript, React, Node.js, and more. I am always
-        learning new technologies and looking for opportunities to grow.
-      </p>
-
-      <img src="./images/rad.jpg" alt="party pic" className="img-thumbnail hidden" style={{ width: "100%", maxWidth: "400px" }}/>
-
+    <section>
+    <div id="about" className="hidden" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+    <div>
+      <h1 className='egg'>Full-Stack Web Developer</h1>
     </div>
-  );
+    <div>
+      <img src="./images/profilemask.png" alt="party pic" className="hidden" style={{ width: "100%", maxWidth: "400px" }} />
+    </div>
+  </div>
+  
+  </section>
+  
+);
 }
 

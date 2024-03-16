@@ -6,7 +6,17 @@
     margin: 0;
 
   } */
+:root {
+   --eggshell: #FFFAF9;
+   --purple:#6610f2;
+}
 
+  body, main {
+   margin: 0;
+   padding: 0;
+   background-image: url('./images/bkgrnd.png');
+   background-size: cover;
+ }
  
 section {
     display: grid;
@@ -27,4 +37,35 @@ section {
    opacity: 1;
    filter:blur(0);
    transform: translateX(0);
+}
+
+.egg{
+   color: var(--eggshell);
+}
+
+.purp {
+   background-color: var(--purple); 
+   border-color: var(--purple); 
+   color: var(--eggshell); 
+ }
+
+.custom-shape-divider-bottom-1710618807 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1710618807 svg {
+   position: relative;
+   display: block;
+   width: calc(193% + 1.3px);
+   height: 171px;
+}
+
+.custom-shape-divider-bottom-1710618807 .shape-fill {
+   fill: #FFFFFF;
 }
